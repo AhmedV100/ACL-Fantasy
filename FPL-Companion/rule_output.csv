@@ -1,0 +1,8173 @@
+player,not_def_fixtures,total_fixtures,fixture_details
+Alexandre Lacazette,570,38,"[
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 311,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 7,
+    fixture_number: 161,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 221,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 7,
+    fixture_number: 71,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 81,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 101,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 114,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 12,
+    fixture_number: 151,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 15,
+    fixture_number: 187,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 11
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 236,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 9,
+    fixture_number: 251,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 5
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 12,
+    fixture_number: 281,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 6
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 261,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 291,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 304,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 2
+  }
+]"
+Boubacar Kamara,380,38,"[
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 41,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 231,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 243,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 209,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 2,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 162,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 0,
+    fixture_number: 211,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 228,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 6,
+    fixture_number: 178,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 3
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  },
+  {
+    def_score: 1,
+    fixture_number: 22,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 2
+  }
+]"
+Boubacar Traoré,64,32,"[
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 0,
+    fixture_number: 160,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 1
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  },
+  {
+    def_score: 4,
+    fixture_number: 150,
+    matches_def: false,
+    season: 2022-23,
+    total_points: 5
+  }
+]"
+César Azpilicueta,38,38,"[
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  },
+  {
+    def_score: 8,
+    fixture_number: 63,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 10
+  }
+]"
+John Stones,114,38,"[
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 266,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 8
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 215,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  },
+  {
+    def_score: 6,
+    fixture_number: 285,
+    matches_def: false,
+    season: 2021-22,
+    total_points: 7
+  }
+]"
