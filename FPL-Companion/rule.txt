@@ -5,11 +5,9 @@ MATCH (p:Player)-[:PLAYS_AS]->(pos:Position)
 WITH p, COLLECT(DISTINCT pos.name) AS positions
 WHERE SIZE(positions) = 2 AND 'DEF' IN positions
 
-// Get all fixtures for these players
+// Get all fixtures for these players and calculate defender score
 MATCH (p)-[r:PLAYED_IN]->(f:Fixture)
-
-// Calculate what the score SHOULD have been if they were defenders
-WITH p, f, r, positions,
+WITH p, f, r,
   // General scoring (applies to all positions)
   CASE 
     WHEN r.minutes > 0 AND r.minutes < 60 THEN 1
@@ -29,23 +27,26 @@ WITH p, f, r, positions,
   END +
   (toInteger(r.goals_conceded / 2) * -1) AS def_score
 
-// Only keep fixtures where calculated defender score doesn't match actual score
-WHERE def_score <> r.total_points
-
-// Count total fixtures per player
-MATCH (p)-[all_r:PLAYED_IN]->(:Fixture)
-WITH p, 
-     COUNT(DISTINCT all_r) AS total_fixtures,
+// Collect all fixtures and filter for incorrect ones
+WITH p,
      COLLECT({
        def_score: def_score,
        season: f.season,
        fixture_number: f.fixture_number,
-       matches_def: false,
+       matches_def: def_score = r.total_points,
        total_points: r.total_points
-     }) AS fixture_details
+     }) AS all_fixture_details
+
+// Filter to only incorrect fixtures
+WITH p,
+     SIZE(all_fixture_details) AS total_fixtures,
+     [fd IN all_fixture_details WHERE fd.matches_def = false] AS incorrect_fixtures
+
+// Only return players who have incorrect fixtures
+WHERE SIZE(incorrect_fixtures) > 0
 
 RETURN p.player_name AS player,
-       SIZE(fixture_details) AS not_def_fixtures,
+       SIZE(incorrect_fixtures) AS not_def_fixtures,
        total_fixtures,
-       fixture_details
+       incorrect_fixtures AS fixture_details
 ORDER BY p.player_name
