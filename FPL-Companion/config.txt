@@ -4,4 +4,4 @@ PASSWORD=budbLNtoxF4ocx4yN_UuTCxLn-EwpavG6k3i2eHV88k
 # Add your API Key here
 OPENAI_API_KEY=sk-...
 # OR
-HUGGINGFACE_API_KEY=tokenhere
+HUGGINGFACE_API_KEY=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
