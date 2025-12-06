@@ -322,11 +322,12 @@ def read_config(config_file='config.txt'):
 
 
 def main():
-    # Read configuration
-    config = read_config('config.txt')
-    uri = config.get('URI', 'neo4j://localhost:7687')
-    username = config.get('USERNAME', 'neo4j')
-    password = config.get('PASSWORD', 'your_password')
+    # Read configuration from shared settings
+    from config import settings
+    
+    uri = settings.NEO4J_URI
+    username = settings.NEO4J_USERNAME
+    password = settings.NEO4J_PASSWORD
     
     # CSV file name
     csv_file = 'fpl_two_seasons.csv'

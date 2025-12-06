@@ -1,3 +1,7 @@
-URI=neo4j://localhost:7687
+URI=neo4j+ssc://821cf8eb.databases.neo4j.io
 USERNAME=neo4j
-PASSWORD=YOUR_PASSWORD
+PASSWORD=budbLNtoxF4ocx4yN_UuTCxLn-EwpavG6k3i2eHV88k
+# Add your API Key here
+OPENAI_API_KEY=sk-...
+# OR
+HUGGINGFACE_API_KEY=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
