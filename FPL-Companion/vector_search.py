@@ -83,29 +83,31 @@ class VectorSearch:
 
         query_embedding = self.model.encode(query_text).tolist()
         
-        # We need to perform vector search first, then filter, but standard vector indices in Neo4j 5.x 
-        # do not natively support pre-filtering in the CALL.
-        # So we fetch more results (limit * 3), then filter in Cypher or Python.
-        # Here we use Cypher filtering after retrieval.
+        # Try to detect if this is a "similar to X" query to enable quality filtering
+        reference_player_name = filters.get('reference_player')
+        min_quality_points = 20  # Default minimum
+        
+        if reference_player_name:
+            # Fetch reference player's stats to set quality threshold
+            with self.driver.session() as session:
+                ref_query = """
+                MATCH (p:Player {player_name: $name})-[r:PLAYED_IN]->(f:Fixture {season: '2022-23'})
+                RETURN sum(r.total_points) as total_points
+                """
+                result = session.run(ref_query, name=reference_player_name).single()
+                if result and result['total_points']:
+                    # Require similar players to have at least 50% of reference player's points
+                    min_quality_points = int(result['total_points'] * 0.5)
         
         position_clause = ""
-        param_map = {'limit': limit * 10, 'embedding': query_embedding} # Fetch 10x more to allow for filtering
-        
-        # Position Filter Logic
-        # Assuming we store position on the node or via Relationship. 
-        # In Create_kg.py: (p:Player)-[:PLAYS_AS]->(pos:Position)
-        # We need to match the position.
+        param_map = {'limit': limit * 10, 'embedding': query_embedding, 'min_points': min_quality_points}
         
         if filters.get('position'):
-            # This requires matching the relationship to position
             position_clause = f"""
             MATCH (node)-[:PLAYS_AS]->(pos:Position)
             WHERE pos.name CONTAINS $position_filter
             """
-            param_map['position_filter'] = filters['position'] 
-            # Note: "Forward" might be "FWD" in DB. fpl_rag_core might need mapping logic, 
-            # but usually "Forward" maps to "FWD" or "Forward" depending on DB.
-            # We use CONTAINS for safety.
+            param_map['position_filter'] = filters['position']
 
         cypher = f"""
         CALL db.index.vector.queryNodes('{self.index_name}', $limit, $embedding)
@@ -118,7 +120,7 @@ class VectorSearch:
              sum(played.total_points) as total_points, 
              sum(played.goals_scored) as goals, 
              sum(played.assists) as assists
-        WHERE total_points >= 20
+        WHERE total_points >= $min_points
         RETURN {{
           player_name: node.player_name, 
           position: pos.name,
@@ -131,7 +133,6 @@ class VectorSearch:
         """
         
         with self.driver.session() as session:
-            # Error handling for missing index
             try:
                 result = session.run(cypher, **param_map)
                 return [dict(record) for record in result]

@@ -107,10 +107,12 @@ class RAGManager:
                 
                 # Construct Filters
                 filters = {}
-                # Map extracted positions to likely DB values if needed
-                # (e.g. "Forward" -> "FWD" is handled by CONTAINS in query or fuzzy EntityExtractor)
                 if entities['positions']:
                     filters['position'] = entities['positions'][0]
+                
+                # For "similar to X" queries, pass reference player for quality filtering
+                if entities['players']:
+                    filters['reference_player'] = entities['players'][0]
                 
                 results = self.vector_search.search_similar_players(user_query, filters=filters)
                 context.append(f"Vector Search Findings: {json.dumps(results)}")
