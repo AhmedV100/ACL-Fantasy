@@ -89,7 +89,7 @@ class VectorSearch:
         # Here we use Cypher filtering after retrieval.
         
         position_clause = ""
-        param_map = {'limit': limit * 4, 'embedding': query_embedding} # Fetch more to allow for filtering
+        param_map = {'limit': limit * 10, 'embedding': query_embedding} # Fetch 10x more to allow for filtering
         
         # Position Filter Logic
         # Assuming we store position on the node or via Relationship. 
@@ -118,6 +118,7 @@ class VectorSearch:
              sum(played.total_points) as total_points, 
              sum(played.goals_scored) as goals, 
              sum(played.assists) as assists
+        WHERE total_points >= 20
         RETURN {{
           player_name: node.player_name, 
           position: pos.name,

@@ -124,10 +124,11 @@ class RAGManager:
         Information Retrieved from Knowledge Graph:
         {context_str}
         
-        Instrutions:
-        1. Use the "Vector Search Findings" (if available) to answer recommendation questions. The players listed are the top matches.
-        2. Use "Cypher Result" for specific stats.
-        3. If no relevant information is found, say "I don't have enough information."
+        Instructions:
+        1. If Vector Search Findings are provided, recommend those players immediately with their stats.
+        2. If Cypher Results are provided, answer using those exact stats.
+        3. DO NOT ask follow-up questions. Use the data provided to give a direct answer.
+        4. If truly no relevant data exists, say "I don't have that information in my database."
         """
         
         if self.llm:
