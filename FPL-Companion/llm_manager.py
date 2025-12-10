@@ -1,6 +1,6 @@
 from huggingface_hub import InferenceClient
 from langchain_core.language_models import LLM
-from langchain_openai import ChatOpenAI
+# from langchain_openai import ChatOpenAI # Removed
 from types import SimpleNamespace
 from typing import Optional, List, Any
 from pydantic import Field
@@ -38,22 +38,21 @@ class CustomHFWrapper(LLM):
             return f"Error in HF Call: {repr(e)}"
 
 class RAGManager:
-    def __init__(self, llm_type="openai"):
+    def __init__(self, llm_type="google/gemma-2-2b-it", embedding_model="all-MiniLM-L6-v2"):
         self.intent_classifier = IntentClassifier()
         self.entity_extractor = EntityExtractor()
         self.cypher_lib = CypherQueryLibrary()
-        self.vector_search = VectorSearch()
+        self.vector_search = VectorSearch(model_name=embedding_model)
         self.llm = self._setup_llm(llm_type)
         
     def _setup_llm(self, llm_type):
-        if llm_type == "openai" and settings.OPENAI_API_KEY:
-            return ChatOpenAI(api_key=settings.OPENAI_API_KEY, model="gpt-3.5-turbo")
-        elif llm_type == "huggingface" and settings.HUGGINGFACE_API_KEY:
-            # Use direct InferenceClient with our Custom Wrapper
-            client = InferenceClient(token=settings.HUGGINGFACE_API_KEY, model="google/gemma-2-2b-it")
-            return CustomHFWrapper(client=client, repo_id="google/gemma-2-2b-it")
-        else:
-            return None
+        # Only supporting Free HF Models now
+        if llm_type in ["google/gemma-2-2b-it", "meta-llama/Llama-3.1-8B-Instruct", "mistralai/Mistral-7B-Instruct-v0.2"]:
+            if settings.HUGGINGFACE_API_KEY:
+                # Use direct InferenceClient with our Custom Wrapper
+                client = InferenceClient(token=settings.HUGGINGFACE_API_KEY, model=llm_type)
+                return CustomHFWrapper(client=client, repo_id=llm_type)
+        return None
 
     def close(self):
         # self.intent_classifier.close() # No close method needed
@@ -105,7 +104,15 @@ class RAGManager:
         if retrieval_strategy in ["embeddings", "hybrid"]:
             if intent in ["recommendation", "general", "comparison"] or not context:
                 # Use vector search for semantic/recommendation queries
-                results = self.vector_search.search_similar_players(user_query)
+                
+                # Construct Filters
+                filters = {}
+                # Map extracted positions to likely DB values if needed
+                # (e.g. "Forward" -> "FWD" is handled by CONTAINS in query or fuzzy EntityExtractor)
+                if entities['positions']:
+                    filters['position'] = entities['positions'][0]
+                
+                results = self.vector_search.search_similar_players(user_query, filters=filters)
                 context.append(f"Vector Search Findings: {json.dumps(results)}")
                 executed_queries.append("vector_search")
         
@@ -113,10 +120,14 @@ class RAGManager:
         context_str = "\n".join(context)
         
         system_prompt = f"""You are an FPL (Fantasy Premier League) Expert Assistant.
-        Context Information from Knowledge Graph:
+        
+        Information Retrieved from Knowledge Graph:
         {context_str}
         
-        Task: Answer the user's question using ONLY the context provided. If the answer is not in the context, say "I don't have enough information in my database."
+        Instrutions:
+        1. Use the "Vector Search Findings" (if available) to answer recommendation questions. The players listed are the top matches.
+        2. Use "Cypher Result" for specific stats.
+        3. If no relevant information is found, say "I don't have enough information."
         """
         
         if self.llm:

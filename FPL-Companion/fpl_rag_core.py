@@ -96,9 +96,24 @@ class EntityExtractor:
             if team_lower in query_lower:
                 entities["teams"].append(original_name)
                 
-        for pos_lower, original_name in self.knowledge_cache["positions"].items():
-            if re.search(r'\b' + re.escape(pos_lower) + r'\b', query_lower):
-                entities["positions"].append(original_name)
+        # Position mapping: natural language -> DB abbrev
+        position_map = {
+            "forward": "FWD", "forwards": "FWD", "striker": "FWD", "strikers": "FWD",
+            "midfielder": "MID", "midfielders": "MID",
+            "defender": "DEF", "defenders": "DEF",
+            "goalkeeper": "GKP", "goalkeepers": "GKP", "keeper": "GKP"
+        }
+        
+        for nat_lang, db_code in position_map.items():
+            if nat_lang in query_lower:
+                entities["positions"].append(db_code)
+                break  # Only match first
+        
+        # Fallback to exact DB match
+        if not entities["positions"]:
+            for pos_lower, original_name in self.knowledge_cache["positions"].items():
+                if re.search(r'\b' + re.escape(pos_lower) + r'\b', query_lower):
+                    entities["positions"].append(original_name)
         
         # Seasons (regex for YYYY-YY)
         season_matches = re.findall(r'\d{4}-\d{2}', query)

@@ -1,0 +1,10 @@
+streamlit
+neo4j
+langchain
+langchain-core
+
+langchain-community
+sentence-transformers
+huggingface_hub
+graphviz
+pydantic

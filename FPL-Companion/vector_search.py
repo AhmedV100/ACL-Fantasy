@@ -3,23 +3,32 @@ from sentence_transformers import SentenceTransformer
 from config import settings
 
 class VectorSearch:
-    def __init__(self):
+    def __init__(self, model_name="all-MiniLM-L6-v2"):
         self.driver = GraphDatabase.driver(
             settings.NEO4J_URI, 
             auth=(settings.NEO4J_USERNAME, settings.NEO4J_PASSWORD)
         )
-        self.model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', device='cpu')
-        self.index_name = "player_embeddings"
+        self.model_name = model_name
+        # Map models to specific index names and dimensions to keep them separate
+        if "mpnet" in model_name:
+             self.model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2', device='cpu')
+             self.index_name = "player_stats_index_mpnet"
+             self.property_name = "embedding_mpnet"
+             self.dim = 768
+        else:
+             self.model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', device='cpu')
+             self.index_name = "player_stats_index_minilm"
+             self.property_name = "embedding_minilm"
+             self.dim = 384
 
     def close(self):
         self.driver.close()
 
     def create_embeddings(self, season="2022-23"):
         """
-        Create embeddings for players based on their aggregated stats in a season.
-        Feature Vector: "Player Name, Position, Total Points: X, Goals: Y, Assists: Z"
+        Create embeddings using the selected model.
         """
-        print("Fetching player data for embedding...")
+        print(f"Fetching player data for embedding using {self.model_name}...")
         query = """
         MATCH (p:Player)-[:PLAYS_AS]->(pos:Position)
         MATCH (p)-[r:PLAYED_IN]->(f:Fixture {season: $season})
@@ -38,46 +47,96 @@ class VectorSearch:
                 texts.append(text)
             
             # 3. Generate Embeddings
-            print("Generating embeddings...")
+            print(f"Generating embeddings with {self.model_name}...")
             embeddings = self.model.encode(texts)
             
             # 4. Store in Neo4j
-            print("Storing embeddings in Neo4j...")
-            # Using Neo4j 5.x vector index syntax or setting properties directly
-            # First, set the property
+            print(f"Storing embeddings in Neo4j property: {self.property_name}...")
             for i, r in enumerate(results):
-                session.run("""
+                # We use dynamic property setting via formatting or apoc, but safe param usage is key.
+                # Since property_name is internal/trusted, f-string is acceptable here for the property key.
+                cypher = f"""
                 MATCH (p:Player) WHERE elementId(p) = $id
-                CALL db.create.setNodeVectorProperty(p, 'embedding', $embedding)
-                """, id=r['id'], embedding=embeddings[i].tolist())
+                CALL db.create.setNodeVectorProperty(p, '{self.property_name}', $embedding)
+                """
+                session.run(cypher, id=r['id'], embedding=embeddings[i].tolist())
             
             # 5. Create Index (if not exists)
-            session.run("""
-            CREATE VECTOR INDEX player_stats_index IF NOT EXISTS
+            index_cypher = f"""
+            CREATE VECTOR INDEX {self.index_name} IF NOT EXISTS
             FOR (p:Player)
-            ON (p.embedding)
-            OPTIONS {indexConfig: {
-             `vector.dimensions`: 384,
+            ON (p.{self.property_name})
+            OPTIONS {{indexConfig: {{
+             `vector.dimensions`: {self.dim},
              `vector.similarity_function`: 'cosine'
-            }}
-            """)
-            print("Embeddings created and index built.")
+            }}}}
+            """
+            session.run(index_cypher)
+            print(f"Embeddings created and index '{self.index_name}' built.")
 
-    def search_similar_players(self, query_text, limit=3):
+    def search_similar_players(self, query_text, limit=3, filters=None):
         """
         Search for players similar to the query text (e.g., 'high scoring forward')
         """
+        if filters is None:
+            filters = {}
+
         query_embedding = self.model.encode(query_text).tolist()
         
-        cypher = """
-        CALL db.index.vector.queryNodes('player_stats_index', $limit, $embedding)
+        # We need to perform vector search first, then filter, but standard vector indices in Neo4j 5.x 
+        # do not natively support pre-filtering in the CALL.
+        # So we fetch more results (limit * 3), then filter in Cypher or Python.
+        # Here we use Cypher filtering after retrieval.
+        
+        position_clause = ""
+        param_map = {'limit': limit * 4, 'embedding': query_embedding} # Fetch more to allow for filtering
+        
+        # Position Filter Logic
+        # Assuming we store position on the node or via Relationship. 
+        # In Create_kg.py: (p:Player)-[:PLAYS_AS]->(pos:Position)
+        # We need to match the position.
+        
+        if filters.get('position'):
+            # This requires matching the relationship to position
+            position_clause = f"""
+            MATCH (node)-[:PLAYS_AS]->(pos:Position)
+            WHERE pos.name CONTAINS $position_filter
+            """
+            param_map['position_filter'] = filters['position'] 
+            # Note: "Forward" might be "FWD" in DB. fpl_rag_core might need mapping logic, 
+            # but usually "Forward" maps to "FWD" or "Forward" depending on DB.
+            # We use CONTAINS for safety.
+
+        cypher = f"""
+        CALL db.index.vector.queryNodes('{self.index_name}', $limit, $embedding)
         YIELD node, score
-        RETURN node.player_name, score
+        {position_clause}
+        // Fetch stats without embedding
+        MATCH (node)-[:PLAYS_AS]->(pos:Position)
+        OPTIONAL MATCH (node)-[played:PLAYED_IN]->(f:Fixture {{season: '2022-23'}})
+        WITH node, score, pos, 
+             sum(played.total_points) as total_points, 
+             sum(played.goals_scored) as goals, 
+             sum(played.assists) as assists
+        RETURN {{
+          player_name: node.player_name, 
+          position: pos.name,
+          total_points: total_points,
+          goals: goals,
+          assists: assists
+        }} as player_data, score
+        ORDER BY score DESC
+        LIMIT {limit}
         """
         
         with self.driver.session() as session:
-            result = session.run(cypher, limit=limit, embedding=query_embedding)
-            return [dict(record) for record in result]
+            # Error handling for missing index
+            try:
+                result = session.run(cypher, **param_map)
+                return [dict(record) for record in result]
+            except Exception as e:
+                print(f"Vector search failed (Index missing?): {e}")
+                return []
 
 if __name__ == "__main__":
     # Test
