@@ -127,3 +127,43 @@ class CypherQueryLibrary:
         """
         return query, {"season": params.get("season"), "p1": params.get("p1"), "p2": params.get("p2")}
 
+    # 11. Top Performing Players (Generic)
+        return query_improved, {
+            "season": params.get("season", "2022-23"), 
+            "limit": int(params.get("limit", 5)),
+            "next_gw": next_gw,
+            "team": params.get("team")
+        } 
+
+    # 11. Top Performing Players (Weighted by Form & Next Fixture)
+    def get_top_performing_players(self, params):
+        # Default to GW 37 to simulate "Next is 38" for historical data
+        current_gw = int(params.get("current_gw", 37))
+        next_gw = current_gw + 1
+        
+        query_improved = """
+        MATCH (p:Player)-[r:PLAYED_IN]->(f:Fixture {season: $season})
+        
+        // Mandatory Team Filter if provided
+        MATCH (p)-[:PLAYS_FOR]->(t:Team)
+        WHERE ($team IS NULL OR t.name = $team)
+        
+        WITH p, t, sum(r.total_points) as total_points, avg(r.form) as avg_form, sum(r.goals_scored) as goals, sum(r.assists) as assists
+        
+        // Get Next Opponent for specific Next GW (Optional)
+        OPTIONAL MATCH (t)<-[:HAS_HOME_TEAM|HAS_AWAY_TEAM]-(next_f:Fixture {season: $season})<-[:HAS_FIXTURE]-(g:Gameweek {GW_number: $next_gw})
+        OPTIONAL MATCH (next_f)-[:HAS_HOME_TEAM|HAS_AWAY_TEAM]->(opp:Team)
+        WHERE opp <> t
+        
+        RETURN p.player_name, total_points, avg_form, goals, assists, 
+               coalesce(opp.name, 'None') as next_opponent
+        ORDER BY (total_points + (avg_form * 8)) DESC
+        LIMIT $limit
+        """
+        return query_improved, {
+            "season": params.get("season", "2022-23"), 
+            "limit": int(params.get("limit", 5)),
+            "next_gw": next_gw,
+            "team": params.get("team")
+        }
+

@@ -109,10 +109,19 @@ class VectorSearch:
             """
             param_map['position_filter'] = filters['position']
 
+        team_clause = ""
+        if filters.get('team'):
+            team_clause = f"""
+            MATCH (node)-[:PLAYS_FOR]->(t:Team)
+            WHERE t.name CONTAINS $team_filter
+            """
+            param_map['team_filter'] = filters['team']
+
         cypher = f"""
         CALL db.index.vector.queryNodes('{self.index_name}', $limit, $embedding)
         YIELD node, score
         {position_clause}
+        {team_clause}
         // Fetch stats without embedding
         MATCH (node)-[:PLAYS_AS]->(pos:Position)
         OPTIONAL MATCH (node)-[played:PLAYED_IN]->(f:Fixture {{season: '2022-23'}})
@@ -124,6 +133,7 @@ class VectorSearch:
         RETURN {{
           player_name: node.player_name, 
           position: pos.name,
+          team_name: head([(node)-[:PLAYS_FOR]->(t) | t.name]),
           total_points: total_points,
           goals: goals,
           assists: assists

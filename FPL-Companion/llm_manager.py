@@ -100,23 +100,52 @@ class RAGManager:
                     except Exception as e:
                         print(f"Error running {q_name}: {e}")
 
-        # Strategy B: Vector Search
+        # Strategy B: Vector Search & Hybrid Recommendation
         if retrieval_strategy in ["embeddings", "hybrid"]:
-            if intent in ["recommendation", "general", "comparison"] or not context:
-                # Use vector search for semantic/recommendation queries
+            # If explicit intent is recommendation OR general fallback
+            if intent in ["recommendation", "general", "comparison"] or (not context and retrieval_strategy != "baseline"):
                 
-                # Construct Filters
+                # 1. Vector Search (Semantic)
                 filters = {}
-                if entities['positions']:
-                    filters['position'] = entities['positions'][0]
-                
-                # For "similar to X" queries, pass reference player for quality filtering
-                if entities['players']:
-                    filters['reference_player'] = entities['players'][0]
+                if entities['positions']: filters['position'] = entities['positions'][0]
+                if entities['teams']: filters['team'] = entities['teams'][0]
+                if entities['players']: filters['reference_player'] = entities['players'][0]
                 
                 results = self.vector_search.search_similar_players(user_query, filters=filters)
                 context.append(f"Vector Search Findings: {json.dumps(results)}")
                 executed_queries.append("vector_search")
+                
+                # 2. Hybrid Augmentation: Add Statistical Top Performers for Recommendation OR General Team Analysis
+                if intent == "recommendation" or (intent in ["general", "comparison"] and entities['teams']):
+                    # Determine sort criteria or specialized query? For now, generic top performers.
+                    # Pass entities to filter if possible? 
+                    # Currently get_top_performing_players doesn't filter by team/pos in the Cypher text, 
+                    # but we could call get_top_players_by_position if position is known.
+                    
+                    hybrid_q = "get_top_performing_players"
+                    hybrid_params = {"season": "2022-23"} # Default
+                    
+                    if entities['positions']:
+                        hybrid_q = "get_top_players_by_position"
+                        hybrid_params["position"] = entities['positions'][0]
+                    
+                    if entities['teams']:
+                        hybrid_params["team"] = entities['teams'][0]
+
+                    # Note: We don't have a "get_top_players_by_team" generic query ready in cypher_queries for stats summation, 
+                    # but "get_player_stats" is specific to one player.
+                    # If team is known, we might want top players OF that team.
+                    # Ideally, we'd add 'get_top_players_by_team' to cypher_queries.py too, but effectively 
+                    # vector search with team filter might cover 'best X in team Y'.
+                    # BUT vector search was failing on quantitative 'best'.
+                    
+                    # Let's run the statistical query to ground the LLM
+                    try:
+                        data = self.cypher_lib.execute_query(hybrid_q, hybrid_params)
+                        context.append(f"Statistical Top Performers ({hybrid_q}): {json.dumps(data)}")
+                        executed_queries.append(hybrid_q)
+                    except Exception as e:
+                        print(f"Hybrid Cypher failed: {e}")
         
         # 3. LLM Generation
         context_str = "\n".join(context)
@@ -127,10 +156,12 @@ class RAGManager:
         {context_str}
         
         Instructions:
-        1. If Vector Search Findings are provided, recommend those players immediately with their stats.
-        2. If Cypher Results are provided, answer using those exact stats.
-        3. DO NOT ask follow-up questions. Use the data provided to give a direct answer.
-        4. If truly no relevant data exists, say "I don't have that information in my database."
+        1. If Vector Search Findings are provided, use them to identify relevant players.
+        2. If Statistical Top Performers are provided, PRIORITIZE them for recommendations.
+        3. consider the "avg_form" and "next_opponent" fields to assess difficulty and recent performance.
+        4. If Cypher Results are provided, answer using those exact stats.
+        5. DO NOT ask follow-up questions. Use the data provided to give a direct answer.
+        6. If truly no relevant data exists, say "I don't have that information in my database."
         """
         
         if self.llm:

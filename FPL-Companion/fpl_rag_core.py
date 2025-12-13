@@ -76,6 +76,22 @@ class EntityExtractor:
             "seasons": []
         }
         
+        # Team Alias Map (User Input -> DB Name)
+        self.team_aliases = {
+            "manchester united": "Man Utd", "man utd": "Man Utd", "man u": "Man Utd", "united": "Man Utd",
+            "manchester city": "Man City", "man city": "Man City", "city": "Man City",
+            "tottenham hotspur": "Spurs", "tottenham": "Spurs", "spurs": "Spurs",
+            "wolverhampton wanderers": "Wolves", "wolves": "Wolves",
+            "newcastle united": "Newcastle", "newcastle": "Newcastle",
+            "nottingham forest": "Nott'm Forest", "forest": "Nott'm Forest",
+            "sheffield united": "Sheffield Utd", "sheffield": "Sheffield Utd",
+            "luton town": "Luton", "luton": "Luton",
+            "leeds united": "Leeds",
+            "west ham united": "West Ham", "west ham": "West Ham",
+            "brighton and hove albion": "Brighton", "brighton": "Brighton",
+            "leicester city": "Leicester", "leicester": "Leicester"
+        }
+        
         # Exact/Fuzzy Match with Cache
         for name_lower, original_name in self.knowledge_cache["players"].items():
             # 1. Full name match
@@ -91,9 +107,14 @@ class EntityExtractor:
                 # Use word boundary to avoid "Son" matching "Season"
                 if re.search(r'\b' + re.escape(last_name) + r'\b', query_lower):
                     entities["players"].append(original_name)
-                    
+        
+        # Check Aliases First
+        for alias, db_name in self.team_aliases.items():
+            if alias in query_lower:
+                entities["teams"].append(db_name)
+
         for team_lower, original_name in self.knowledge_cache["teams"].items():
-            if team_lower in query_lower:
+            if team_lower in query_lower and original_name not in entities["teams"]:
                 entities["teams"].append(original_name)
                 
         # Position mapping: natural language -> DB abbrev

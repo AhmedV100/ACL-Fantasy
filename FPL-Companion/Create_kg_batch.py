@@ -148,30 +148,52 @@ class FPLKnowledgeGraphBatch:
         print("Fixtures created")
 
     def create_players_batch(self, data):
-        """Create Player nodes and Positions in batch"""
+        """Create Player nodes, Positions, and Team links in batch"""
         players = {}
+        # 1. Pre-process to identify positions and all teams seen
         for row in data:
             key = (row['name'], row['element'])
             if key not in players:
                 players[key] = {
                     'name': row['name'],
                     'element': int(row['element']),
-                    'positions': set()
+                    'positions': set(),
+                    'teams_seen': [] # Track teams to infer primary team
                 }
             players[key]['positions'].add(row['position'])
+            players[key]['teams_seen'].extend([row['home_team'], row['away_team']])
         
+        # 2. Prepare final list with primary team inferred
         player_list = []
+        from collections import Counter
+        
         for p in players.values():
             p['positions'] = list(p['positions'])
+            
+            # Infer Team
+            team_counts = Counter(p['teams_seen'])
+            p['primary_team'] = team_counts.most_common(1)[0][0] if team_counts else None
+            
+            # Remove helper list to save bandwidth
+            del p['teams_seen']
+            
             player_list.append(p)
             
         def create_players_tx(tx, batch):
             query = """
             UNWIND $batch AS row
             MERGE (p:Player {player_name: row.name, player_element: row.element})
+            
+            // Positions
             FOREACH (pos_name IN row.positions | 
                 MERGE (pos:Position {name: pos_name})
                 MERGE (p)-[:PLAYS_AS]->(pos)
+            )
+            
+            // Team Link
+            FOREACH (t_name IN CASE WHEN row.primary_team IS NOT NULL THEN [row.primary_team] ELSE [] END |
+                MERGE (t:Team {name: t_name})
+                MERGE (p)-[:PLAYS_FOR]->(t)
             )
             """
             tx.run(query, batch=batch)
@@ -180,12 +202,31 @@ class FPLKnowledgeGraphBatch:
         with self.driver.session() as session:
             for batch in self.batch_data(player_list):
                 session.execute_write(create_players_tx, batch)
-        print("Players and Position links created")
+        print("Players, Position links, and Team links created")
 
     def create_performances_batch(self, data):
         """Create PLAYED_IN relationships with stats in batch"""
+        
+        # 1. Build Player -> Team Map for was_home calculation
+        player_teams = {}
+        temp_teams = {} # (name, element) -> list of teams
+        for row in data:
+             key = (row['name'], row['element'])
+             if key not in temp_teams: temp_teams[key] = []
+             temp_teams[key].append(row['home_team'])
+             temp_teams[key].append(row['away_team'])
+        
+        from collections import Counter
+        for k, v in temp_teams.items():
+            if v:
+                player_teams[k] = Counter(v).most_common(1)[0][0]
+        
         processed_rows = []
         for row in data:
+            key = (row['name'], row['element'])
+            p_team = player_teams.get(key)
+            was_home = (row['home_team'] == p_team) if p_team else False
+
             processed_rows.append({
                 'player_name': row['name'],
                 'player_element': int(row['element']),
@@ -209,7 +250,8 @@ class FPLKnowledgeGraphBatch:
                 'creativity': float(row['creativity']),
                 'threat': float(row['threat']),
                 'ict_index': float(row['ict_index']),
-                'form': float(row['form'])
+                'form': float(row['form']),
+                'was_home': was_home
             })
             
         def create_perfs_tx(tx, batch):
@@ -236,7 +278,8 @@ class FPLKnowledgeGraphBatch:
                 r.creativity = row.creativity,
                 r.threat = row.threat,
                 r.ict_index = row.ict_index,
-                r.form = row.form
+                r.form = row.form,
+                r.was_home = row.was_home
             """
             tx.run(query, batch=batch)
 

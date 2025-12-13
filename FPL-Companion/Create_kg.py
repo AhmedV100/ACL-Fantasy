@@ -200,13 +200,26 @@ class FPLKnowledgeGraph:
                     'name': row['name'],
                     'element': row['element'],
                     'positions': set(),
-                    'fixtures': []
+                    'fixtures': [],
+                    'teams_seen': [] # Track all teams seen in fixtures to infer actual team
                 }
             players[key]['positions'].add(row['position'])
             players[key]['fixtures'].append(row)
+            players[key]['teams_seen'].extend([row['home_team'], row['away_team']])
         
         with self.driver.session() as session:
             for player_data in players.values():
+                # --- Infer Team Logic ---
+                # A player's team must be present in their fixtures.
+                # The team that appears most frequently in (home_team, away_team) across all fixtures is the player's team.
+                # (Handling transfers: Simply taking the most frequent for now, assuming one main team per season)
+                from collections import Counter
+                team_counts = Counter(player_data['teams_seen'])
+                if team_counts:
+                    primary_team_name = team_counts.most_common(1)[0][0]
+                else:
+                    primary_team_name = None
+
                 # Create Player node
                 session.run("""
                     MERGE (p:Player {
@@ -230,8 +243,23 @@ class FPLKnowledgeGraph:
                         position=position
                     )
                 
+                 # Create PLAYS_FOR relationship (New)
+                if primary_team_name:
+                    session.run("""
+                        MATCH (p:Player {player_name: $player_name, player_element: $player_element})
+                        MATCH (t:Team {name: $team_name})
+                        MERGE (p)-[:PLAYS_FOR]->(t)
+                    """,
+                        player_name=player_data['name'],
+                        player_element=int(player_data['element']),
+                        team_name=primary_team_name
+                    )
+
                 # Create PLAYED_IN relationships with properties
                 for fixture in player_data['fixtures']:
+                    # Calculate was_home
+                    was_home = (fixture['home_team'] == primary_team_name)
+
                     session.run("""
                         MATCH (p:Player {player_name: $player_name, player_element: $player_element})
                         MATCH (f:Fixture {season: $season, fixture_number: $fixture_number})
@@ -254,7 +282,8 @@ class FPLKnowledgeGraph:
                             r.creativity = $creativity,
                             r.threat = $threat,
                             r.ict_index = $ict_index,
-                            r.form = $form
+                            r.form = $form,
+                            r.was_home = $was_home
                     """, 
                         player_name=player_data['name'],
                         player_element=int(player_data['element']),
@@ -278,10 +307,11 @@ class FPLKnowledgeGraph:
                         creativity=float(fixture['creativity']),
                         threat=float(fixture['threat']),
                         ict_index=float(fixture['ict_index']),
-                        form=float(fixture['form'])
+                        form=float(fixture['form']),
+                        was_home=was_home
                     )
         
-        print(f"Created {len(players)} Player nodes with relationships")
+        print(f"Created {len(players)} Player nodes with relationships (PLAYS_FOR, PLAYED_IN)")
     
     def build_knowledge_graph(self, csv_file):
         """Main method to build the entire knowledge graph"""
