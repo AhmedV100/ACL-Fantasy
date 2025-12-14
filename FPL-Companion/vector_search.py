@@ -117,6 +117,12 @@ class VectorSearch:
             """
             param_map['team_filter'] = filters['team']
 
+        # Exclude reference player if present
+        exclude_clause = ""
+        if filters.get('reference_player'):
+            exclude_clause = "AND node.player_name <> $ref_player_name"
+            param_map['ref_player_name'] = filters['reference_player']
+
         cypher = f"""
         CALL db.index.vector.queryNodes('{self.index_name}', $limit, $embedding)
         YIELD node, score
@@ -124,6 +130,7 @@ class VectorSearch:
         {team_clause}
         // Fetch stats without embedding
         MATCH (node)-[:PLAYS_AS]->(pos:Position)
+        WHERE 1=1 {exclude_clause}
         OPTIONAL MATCH (node)-[played:PLAYED_IN]->(f:Fixture {{season: '2022-23'}})
         WITH node, score, pos, 
              sum(played.total_points) as total_points, 
@@ -139,7 +146,7 @@ class VectorSearch:
           assists: assists
         }} as player_data, score
         ORDER BY score DESC
-        LIMIT {limit}
+        LIMIT 5
         """
         
         with self.driver.session() as session:

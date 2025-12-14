@@ -34,6 +34,11 @@ class CypherQueryLibrary:
         query = """
         MATCH (p:Player)-[:PLAYS_AS]->(pos:Position {name: $position})
         MATCH (p)-[r:PLAYED_IN]->(f:Fixture {season: $season})
+        
+        // Optional Team Filter
+        MATCH (p)-[:PLAYS_FOR]->(t:Team)
+        WHERE ($team IS NULL OR t.name = $team)
+
         RETURN p.player_name, pos.name, sum(r.total_points) as total_points
         ORDER BY total_points DESC
         LIMIT $limit
@@ -41,7 +46,8 @@ class CypherQueryLibrary:
         return query, {
             "position": params.get("position"), 
             "season": params.get("season"),
-            "limit": int(params.get("limit", 5))
+            "limit": int(params.get("limit", 5)),
+            "team": params.get("team") # Pass None if missing
         }
 
     # 3. Team Fixtures

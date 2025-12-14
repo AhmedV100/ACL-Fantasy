@@ -37,6 +37,30 @@ class CustomHFWrapper(LLM):
         except Exception as e:
             return f"Error in HF Call: {repr(e)}"
 
+class MetricsTracker:
+    def __init__(self, cost_per_1m_input=0.20, cost_per_1m_output=0.60):
+        self.input_tokens = 0
+        self.output_tokens = 0
+        self.cost_input = cost_per_1m_input
+        self.cost_output = cost_per_1m_output
+
+    def count_tokens(self, text):
+        # Approximate: 4 chars per token
+        if not text: return 0
+        return len(text) // 4
+
+    def track_request(self, input_text, output_text):
+        in_tok = self.count_tokens(input_text)
+        out_tok = self.count_tokens(output_text)
+        self.input_tokens += in_tok
+        self.output_tokens += out_tok
+        return {
+            "input_tokens": in_tok, 
+            "output_tokens": out_tok,
+            "total_tokens": in_tok + out_tok,
+            "cost": (in_tok * self.cost_input / 1_000_000) + (out_tok * self.cost_output / 1_000_000)
+        }
+
 class RAGManager:
     def __init__(self, llm_type="google/gemma-2-2b-it", embedding_model="all-MiniLM-L6-v2"):
         self.intent_classifier = IntentClassifier()
@@ -44,6 +68,7 @@ class RAGManager:
         self.cypher_lib = CypherQueryLibrary()
         self.vector_search = VectorSearch(model_name=embedding_model)
         self.llm = self._setup_llm(llm_type)
+        self.metrics = MetricsTracker() # Initialize tracker
         
     def _setup_llm(self, llm_type):
         # Only supporting Free HF Models now
@@ -76,7 +101,7 @@ class RAGManager:
                 extracted_params = {}
                 if entities['players']: extracted_params['player_name'] = entities['players'][0]
                 if entities['seasons']: extracted_params['season'] = entities['seasons'][0]
-                if entities['teams']: extracted_params['team_name'] = entities['teams'][0] # or opponent
+                if entities['teams']: extracted_params['team'] = entities['teams'][0] # Changed key to 'team' to match Cypher param
                 
                 # Default season if missing
                 if 'season' not in extracted_params: extracted_params['season'] = "2022-23"
@@ -84,13 +109,20 @@ class RAGManager:
                 queries_to_run = []
                 if 'player_name' in extracted_params:
                      queries_to_run.append("get_player_stats")
-                elif 'team_name' in extracted_params:
-                     queries_to_run.append("get_team_fixtures") # Example
+                elif 'team' in extracted_params:
+                     # If generic team stats requested, might still want team fixtures
+                     extracted_params['team_name'] = extracted_params['team'] # Support legacy get_team_fixtures which uses team_name
+                     queries_to_run.append("get_team_fixtures")
                 else: 
                      # Only run fallback Cypher if we are strictly in baseline mode
                      # Otherwise, let Vector Search handle this likely generic/semantic query
                      if retrieval_strategy == "baseline":
                         queries_to_run.append("get_total_gameweeks")
+
+                # Enhancement: If Position is mentioned in Stats, get top players for that pos (and team if present)
+                if entities['positions']:
+                    extracted_params['position'] = entities['positions'][0]
+                    queries_to_run.append("get_top_players_by_position")
                 
                 for q_name in queries_to_run:
                     try:
@@ -164,6 +196,9 @@ class RAGManager:
         6. If truly no relevant data exists, say "I don't have that information in my database."
         """
         
+        response_text = ""
+        full_input_text = f"{system_prompt}\nUser: {user_query}"
+        
         if self.llm:
             try:
                 # Simplifying for both Chat and minimal LLM interfaces
@@ -173,17 +208,23 @@ class RAGManager:
                         ("human", user_query),
                     ]
                     response = self.llm.invoke(messages)
-                    return response.content if hasattr(response, 'content') else str(response), context, executed_queries
+                    response_text = response.content if hasattr(response, 'content') else str(response)
                 # Custom Wrapper Fallback (if invoke vs call confusion)
                 elif hasattr(self.llm, "_call"):
                      # For our CustomHFWrapper (which inherits from LLM), invoke() should work via LangChain base class.
                      # But if not, we can construct the prompt manually.
                      full_prompt = f"{system_prompt}\nUser Question: {user_query}\nAnswer:"
                      response = self.llm(full_prompt) # LLM.__call__ calls _call
-                     return response, context, executed_queries
+                     response_text = response
+                     full_input_text = full_prompt
                 else:
-                    return f"LLM Configured but invoke failed. Context: {context_str}", context, executed_queries
+                    response_text = f"LLM Configured but invoke failed. Context: {context_str}"
             except Exception as e:
-                return f"Error calling LLM: {e}. Context: {context_str}", context, executed_queries
+                response_text = f"Error calling LLM: {e}. Context: {context_str}"
         else:
-            return f"[No LLM API Key] Context Found: {context_str}", context, executed_queries
+            response_text = f"[No LLM API Key] Context Found: {context_str}"
+            
+        # Track Metrics
+        usage_stats = self.metrics.track_request(full_input_text, response_text)
+            
+        return response_text, context, executed_queries, usage_stats

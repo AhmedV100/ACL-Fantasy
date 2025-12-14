@@ -65,7 +65,7 @@ if prompt := st.chat_input("Ask about players, stats, or recommendations..."):
         
         start_time = time.time()
         with st.spinner("Thinking..."):
-            response_text, context, queries = rag.process_query(prompt, retrieval_strategy=retrieval_mode)
+            response_text, context, queries, usage_stats = rag.process_query(prompt, retrieval_strategy=retrieval_mode)
             rag.close()
         end_time = time.time()
         elapsed_time = end_time - start_time
@@ -73,7 +73,15 @@ if prompt := st.chat_input("Ask about players, stats, or recommendations..."):
         # Render Assistant Message
         with st.chat_message("assistant"):
             st.markdown(response_text)
-            st.caption(f"⏱️ Response Time: {elapsed_time:.2f}s | Model: {llm_model}")
+            
+            # Quantitative Metrics Display
+            metrics_col1, metrics_col2, metrics_col3 = st.columns(3)
+            with metrics_col1:
+                st.caption(f"⏱️ Time: {elapsed_time:.2f}s")
+            with metrics_col2:
+                st.caption(f"🪙 Tokens: {usage_stats['total_tokens']} ({usage_stats['input_tokens']} in / {usage_stats['output_tokens']} out)")
+            with metrics_col3:
+                st.caption(f"💰 Est. Cost: ${usage_stats['cost']:.5f}")
             
             # Context Expander
             with st.expander("Retrieved Context & Queries"):
