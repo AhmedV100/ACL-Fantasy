@@ -91,7 +91,9 @@ class RAGManager:
         entities = self.entity_extractor.extract_entities(user_query)
         
         context = []
+        context = []
         executed_queries = []
+        queries_to_run = []
         
         # 2. Retrieval Strategy
         # Strategy A: Baseline (Cypher)
@@ -99,6 +101,7 @@ class RAGManager:
             if intent == "stats":
                 # Check which template fits
                 extracted_params = {}
+                # queries_to_run = [] # Moved to top
                 if entities['players']: extracted_params['player_name'] = entities['players'][0]
                 if entities['seasons']: extracted_params['season'] = entities['seasons'][0]
                 if entities['teams']: extracted_params['team'] = entities['teams'][0] # Changed key to 'team' to match Cypher param
@@ -119,9 +122,10 @@ class RAGManager:
                      queries_to_run.append("get_players_with_min_goals")
                 
                 # Default season if missing
+                # Default season if missing
                 if 'season' not in extracted_params: extracted_params['season'] = "2022-23"
                 
-                queries_to_run = []
+                # queries_to_run = [] # Removed redundant init
                 if 'player_name' in extracted_params:
                      # Check if Gameweek is specified
                      if entities.get('gameweeks'):
