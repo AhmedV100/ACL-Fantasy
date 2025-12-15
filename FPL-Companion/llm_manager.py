@@ -107,7 +107,7 @@ class RAGManager:
                 if entities['teams']: extracted_params['team'] = entities['teams'][0] # Changed key to 'team' to match Cypher param
                 
                 # Check for Specific Stats Keywords
-                if "clean sheet" in user_query.lower() and 'player_name' in extracted_params:
+                if any(x in user_query.lower() for x in ["clean sheet", "cleansheet", "clean sheets", "cleansheets"]) and 'player_name' in extracted_params:
                      extracted_params['season'] = extracted_params.get('season', "2022-23")
                      queries_to_run.append("get_player_cleansheets")
 

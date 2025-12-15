@@ -5,7 +5,7 @@ from neo4j import GraphDatabase
 class IntentClassifier:
     def __init__(self):
         self.intents = {
-            "stats": ["how many", "stats", "points", "goals", "assists", "clean sheets", "red cards", "yellow cards", "minutes", "score"],
+            "stats": ["how many", "stats", "points", "goals", "assists", "clean sheets", "red cards", "yellow cards", "minutes", "score", "how did", "performance", "against"],
             "recommendation": ["recommend", "suggest", "best", "top", "pick", "transfer", "buy", "sell"],
             "comparison": ["compare", "better", "vs", "versus", "difference"],
             "general": ["what is", "explain", "tell me", "who is"]
