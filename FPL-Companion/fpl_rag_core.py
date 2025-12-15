@@ -146,6 +146,14 @@ class EntityExtractor:
         
         # Default season if none found ? Maybe not here.
         
+        # Gameweeks (GW X, Gameweek X)
+        gw_matches = re.findall(r'(?:gw|gameweek)\s*(\d+)', query_lower)
+        if gw_matches:
+             # Just take the first one found for now, assume single GW query
+             entities["gameweeks"] = [int(gw_matches[0])]
+        else:
+             entities["gameweeks"] = []
+
         return entities
 
 if __name__ == "__main__":

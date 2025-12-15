@@ -29,6 +29,20 @@ class CypherQueryLibrary:
         """
         return query, {"player_name": params.get("player_name"), "season": params.get("season")}
 
+    # 1b. Player Stats by Gameweek (New)
+    def get_player_gw_stats(self, params):
+        query = """
+        MATCH (p:Player {player_name: $player_name})-[r:PLAYED_IN]->(f:Fixture {season: $season})
+        MATCH (g:Gameweek {season: $season, GW_number: $gw})
+        MATCH (g)-[:HAS_FIXTURE]->(f)
+        RETURN p.player_name, f.season, g.GW_number, r.total_points, r.goals_scored, r.assists
+        """
+        return query, {
+            "player_name": params.get("player_name"), 
+            "season": params.get("season"),
+            "gw": int(params.get("gw"))
+        }
+
     # 2. Top Players by Position
     def get_top_players_by_position(self, params):
         query = """

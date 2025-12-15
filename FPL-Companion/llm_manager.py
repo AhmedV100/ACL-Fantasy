@@ -103,16 +103,42 @@ class RAGManager:
                 if entities['seasons']: extracted_params['season'] = entities['seasons'][0]
                 if entities['teams']: extracted_params['team'] = entities['teams'][0] # Changed key to 'team' to match Cypher param
                 
+                # Check for Specific Stats Keywords
+                if "clean sheet" in user_query.lower() and 'player_name' in extracted_params:
+                     extracted_params['season'] = extracted_params.get('season', "2022-23")
+                     queries_to_run.append("get_player_cleansheets")
+
+                if any(x in user_query.lower() for x in ["ict", "influence", "creativity", "threat"]) and not 'player_name' in extracted_params:
+                     queries_to_run.append("get_highest_ict_player")
+
+                if "max" in user_query.lower() or "record" in user_query.lower() or "highest" in user_query.lower():
+                     queries_to_run.append("get_max_points_gw")
+
+                if "goal" in user_query.lower() and "more than" in user_query.lower():
+                     # Simple regex for number? defaulting to 10 provided in query lib
+                     queries_to_run.append("get_players_with_min_goals")
+                
                 # Default season if missing
                 if 'season' not in extracted_params: extracted_params['season'] = "2022-23"
                 
                 queries_to_run = []
                 if 'player_name' in extracted_params:
-                     queries_to_run.append("get_player_stats")
+                     # Check if Gameweek is specified
+                     if entities.get('gameweeks'):
+                         extracted_params['gw'] = entities['gameweeks'][0]
+                         queries_to_run.append("get_player_gw_stats")
+                     else:
+                         queries_to_run.append("get_player_stats")
                 elif 'team' in extracted_params:
                      # If generic team stats requested, might still want team fixtures
                      extracted_params['team_name'] = extracted_params['team'] # Support legacy get_team_fixtures which uses team_name
                      queries_to_run.append("get_team_fixtures")
+                elif 'player_name' in extracted_params and 'team' in extracted_params:
+                     # New Logic: Player vs Team
+                     extracted_params['opponent'] = extracted_params['team']
+                     queries_to_run.append("get_player_performance_vs_team")
+                     # We might also want general stats to compare
+                     queries_to_run.append("get_player_stats")
                 else: 
                      # Only run fallback Cypher if we are strictly in baseline mode
                      # Otherwise, let Vector Search handle this likely generic/semantic query
@@ -132,9 +158,22 @@ class RAGManager:
                     except Exception as e:
                         print(f"Error running {q_name}: {e}")
 
+                        print(f"Error running {q_name}: {e}")
+
         # Strategy B: Vector Search & Hybrid Recommendation
         if retrieval_strategy in ["embeddings", "hybrid"]:
             # If explicit intent is recommendation OR general fallback
+            if intent == "comparison" and len(entities['players']) >= 2:
+                 # 0. Precise Player Comparison (New)
+                 p1 = entities['players'][0]
+                 p2 = entities['players'][1]
+                 try:
+                     data = self.cypher_lib.execute_query("compare_players", {"season": "2022-23", "p1": p1, "p2": p2})
+                     context.append(f"Comparison Data: {json.dumps(data)}")
+                     executed_queries.append("compare_players")
+                 except Exception as e:
+                     print(f"Comparison failed: {e}")
+
             if intent in ["recommendation", "general", "comparison"] or (not context and retrieval_strategy != "baseline"):
                 
                 # 1. Vector Search (Semantic)
