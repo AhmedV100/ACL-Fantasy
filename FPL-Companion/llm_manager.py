@@ -91,6 +91,8 @@ class RAGManager:
         entities = self.entity_extractor.extract_entities(user_query)
         
         context = []
+        # DEBUG: Diagnose why Comparison fails
+        context.append(f"DEBUG: Intent='{intent}', Players={entities['players']}")
         context = []
         executed_queries = []
         queries_to_run = []
@@ -124,41 +126,6 @@ class RAGManager:
                 if "goal" in user_query.lower() and "more than" in user_query.lower():
                      # Simple regex for number? defaulting to 10 provided in query lib
                      queries_to_run.append("get_players_with_min_goals")
-                
-                # Default season if missing
-                # Default season if missing
-                # Default season if missing
-                if 'season' not in extracted_params: extracted_params['season'] = "2022-23"
-                
-                if 'player_name' in extracted_params and 'team' in extracted_params:
-                     # 1. Player vs Team
-                     extracted_params['opponent'] = extracted_params['team']
-                     queries_to_run.append("get_player_performance_vs_team")
-                
-                     # 2. Player Stats (GW or Season)
-                     if entities.get('gameweeks'):
-                         extracted_params['gw'] = entities['gameweeks'][0]
-                         queries_to_run.append("get_player_gw_stats")
-                     elif "home" in user_query.lower() or "away" in user_query.lower():
-                         queries_to_run.append("get_player_home_away_performance")
-                     elif any(x in user_query.lower() for x in ["form", "recent", "last 5", "trend"]):
-                         queries_to_run.append("get_player_recent_form")
-                     elif any(x in user_query.lower() for x in ["value", "cost", "price", "budget", "worth"]):
-                         # Check if explicit budget number was found (filter) or just general value analysis (player)
-                         if entities.get('budget'):
-                              extracted_params['budget'] = entities['budget']
-                              if entities.get('positions'): extracted_params['position'] = entities['positions'][0]
-                              queries_to_run.append("get_players_by_budget")
-                         else:
-                              queries_to_run.append("get_player_value_analysis")
-                     else:
-                         queries_to_run.append("get_player_stats")
-
-                elif 'team' in extracted_params:
-                     # 3. Team Fixtures or Top Scorers
-                     extracted_params['team_name'] = extracted_params['team']
-                     
-                     if any(x in user_query.lower() for x in ["top scorer", "most goals", "leading scorer", "lead scorer"]):
                           queries_to_run.append("get_team_top_scorers")
                      else:
                           queries_to_run.append("get_team_fixtures")
@@ -170,7 +137,6 @@ class RAGManager:
                      if retrieval_strategy == "baseline":
                         queries_to_run.append("get_total_gameweeks")
 
-                # Enhancement: If Position is mentioned in Stats, get top players for that pos (and team if present)
                 if entities['positions']:
                     extracted_params['position'] = entities['positions'][0]
                     queries_to_run.append("get_top_players_by_position")
@@ -183,13 +149,8 @@ class RAGManager:
                     except Exception as e:
                         print(f"Error running {q_name}: {e}")
 
-                        print(f"Error running {q_name}: {e}")
-
-        # Strategy B: Vector Search & Hybrid Recommendation
-        if retrieval_strategy in ["embeddings", "hybrid"]:
-            # If explicit intent is recommendation OR general fallback
+            # Explicit Comparison Logic (Moved to Baseline/Hybrid checks)
             if intent == "comparison" and len(entities['players']) >= 2:
-                 # 0. Precise Player Comparison (New)
                  p1 = entities['players'][0]
                  p2 = entities['players'][1]
                  try:
@@ -198,6 +159,12 @@ class RAGManager:
                      executed_queries.append("compare_players")
                  except Exception as e:
                      print(f"Comparison failed: {e}")
+
+                        print(f"Error running {q_name}: {e}")
+
+        # Strategy B: Vector Search & Hybrid Recommendation
+        if retrieval_strategy in ["embeddings", "hybrid"]:
+            # If explicit intent is recommendation OR general fallback
 
             if intent in ["recommendation", "general", "comparison"] or (not context and retrieval_strategy != "baseline"):
                 
