@@ -123,27 +123,29 @@ class RAGManager:
                 
                 # Default season if missing
                 # Default season if missing
+                # Default season if missing
                 if 'season' not in extracted_params: extracted_params['season'] = "2022-23"
                 
-                # queries_to_run = [] # Removed redundant init
-                if 'player_name' in extracted_params:
-                     # Check if Gameweek is specified
+                if 'player_name' in extracted_params and 'team' in extracted_params:
+                     # 1. Player vs Team
+                     extracted_params['opponent'] = extracted_params['team']
+                     queries_to_run.append("get_player_performance_vs_team")
+                
+                elif 'player_name' in extracted_params:
+                     # 2. Player Stats (GW or Season)
                      if entities.get('gameweeks'):
                          extracted_params['gw'] = entities['gameweeks'][0]
                          queries_to_run.append("get_player_gw_stats")
                      else:
                          queries_to_run.append("get_player_stats")
+
                 elif 'team' in extracted_params:
-                     # If generic team stats requested, might still want team fixtures
-                     extracted_params['team_name'] = extracted_params['team'] # Support legacy get_team_fixtures which uses team_name
+                     # 3. Team Fixtures
+                     extracted_params['team_name'] = extracted_params['team']
                      queries_to_run.append("get_team_fixtures")
-                elif 'player_name' in extracted_params and 'team' in extracted_params:
-                     # New Logic: Player vs Team
-                     extracted_params['opponent'] = extracted_params['team']
-                     queries_to_run.append("get_player_performance_vs_team")
-                     # We might also want general stats to compare
-                     queries_to_run.append("get_player_stats")
+                
                 else: 
+                     # 4. Fallback
                      # Only run fallback Cypher if we are strictly in baseline mode
                      # Otherwise, let Vector Search handle this likely generic/semantic query
                      if retrieval_strategy == "baseline":
@@ -186,6 +188,13 @@ class RAGManager:
                 if entities['teams']: filters['team'] = entities['teams'][0]
                 if entities['players']: filters['reference_player'] = entities['players'][0]
                 
+                # Logic: Only exclude the player if we are explicitly recommending NEW players.
+                # If asking "Who is Salah" (general) or "Compare Salah" (comparison), we want to see Salah.
+                if intent in ["recommendation"]:
+                    filters['exclude_self'] = True
+                else:
+                    filters['exclude_self'] = False
+
                 results = self.vector_search.search_similar_players(user_query, filters=filters)
                 context.append(f"Vector Search Findings: {json.dumps(results)}")
                 executed_queries.append("vector_search")

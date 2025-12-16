@@ -117,9 +117,10 @@ class VectorSearch:
             """
             param_map['team_filter'] = filters['team']
 
-        # Exclude reference player if present
+        # Exclude reference player if present (unless instructed otherwise)
         exclude_clause = ""
-        if filters.get('reference_player'):
+        exclude_self = filters.get('exclude_self', True) # Default to True for backward compatibility
+        if filters.get('reference_player') and exclude_self:
             exclude_clause = "AND node.player_name <> $ref_player_name"
             param_map['ref_player_name'] = filters['reference_player']
 
