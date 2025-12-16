@@ -91,8 +91,6 @@ class RAGManager:
         entities = self.entity_extractor.extract_entities(user_query)
         
         context = []
-        # DEBUG: Diagnose why Comparison fails
-        context.append(f"DEBUG: Intent='{intent}', Players={entities['players']}")
         context = []
         executed_queries = []
         queries_to_run = []
@@ -126,6 +124,42 @@ class RAGManager:
                 if "goal" in user_query.lower() and "more than" in user_query.lower():
                      # Simple regex for number? defaulting to 10 provided in query lib
                      queries_to_run.append("get_players_with_min_goals")
+                
+                # Default season if missing
+                if 'season' not in extracted_params: extracted_params['season'] = "2022-23"
+                
+                if 'player_name' in extracted_params:
+                     # 1. Player vs Team (Needs Team)
+                     if 'team' in extracted_params:
+                         extracted_params['opponent'] = extracted_params['team']
+                         queries_to_run.append("get_player_performance_vs_team")
+                
+                     # 2. Player Stats (GW, Form, Value, etc - No Team needed)
+                     if entities.get('gameweeks'):
+                         extracted_params['gw'] = entities['gameweeks'][0]
+                         queries_to_run.append("get_player_gw_stats")
+                     elif "home" in user_query.lower() or "away" in user_query.lower():
+                         queries_to_run.append("get_player_home_away_performance")
+                     elif any(x in user_query.lower() for x in ["form", "recent", "last 5", "trend"]):
+                         queries_to_run.append("get_player_recent_form")
+                     elif any(x in user_query.lower() for x in ["value", "cost", "price", "budget", "worth"]):
+                         # Check if explicit budget number was found (filter) or just general value analysis (player)
+                         if entities.get('budget'):
+                              extracted_params['budget'] = entities['budget']
+                              if entities.get('positions'): extracted_params['position'] = entities['positions'][0]
+                              queries_to_run.append("get_players_by_budget")
+                         else:
+                              queries_to_run.append("get_player_value_analysis")
+                     
+                     # If no specific query added yet, default to generic stats
+                     if not queries_to_run:
+                          queries_to_run.append("get_player_stats")
+
+                elif 'team' in extracted_params:
+                     # 3. Team Fixtures or Top Scorers
+                     extracted_params['team_name'] = extracted_params['team']
+                     
+                     if any(x in user_query.lower() for x in ["top scorer", "most goals", "leading scorer", "lead scorer"]):
                           queries_to_run.append("get_team_top_scorers")
                      else:
                           queries_to_run.append("get_team_fixtures")

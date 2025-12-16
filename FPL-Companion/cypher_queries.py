@@ -147,13 +147,6 @@ class CypherQueryLibrary:
         """
         return query, {"season": params.get("season"), "p1": params.get("p1"), "p2": params.get("p2")}
 
-    # 11. Top Performing Players (Generic)
-        return query_improved, {
-            "season": params.get("season", "2022-23"), 
-            "limit": int(params.get("limit", 5)),
-            "next_gw": next_gw,
-            "team": params.get("team")
-        } 
 
     # 11. Top Performing Players (Weighted by Form & Next Fixture)
     def get_top_performing_players(self, params):
