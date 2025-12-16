@@ -194,7 +194,6 @@ class RAGManager:
                  except Exception as e:
                      print(f"Comparison failed: {e}")
 
-                        print(f"Error running {q_name}: {e}")
 
         # Strategy B: Vector Search & Hybrid Recommendation
         if retrieval_strategy in ["embeddings", "hybrid"]:
