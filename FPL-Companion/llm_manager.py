@@ -98,7 +98,7 @@ class RAGManager:
         # 2. Retrieval Strategy
         # Strategy A: Baseline (Cypher)
         if retrieval_strategy in ["baseline", "hybrid"]:
-            if intent == "stats":
+            if intent in ["stats", "recommendation", "general", "comparison"]:
                 # Check which template fits
                 extracted_params = {}
                 # queries_to_run = [] # Moved to top
