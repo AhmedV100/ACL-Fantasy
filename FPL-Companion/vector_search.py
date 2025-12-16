@@ -136,7 +136,13 @@ class VectorSearch:
         WITH node, score, pos, 
              sum(played.total_points) as total_points, 
              sum(played.goals_scored) as goals, 
-             sum(played.assists) as assists
+             sum(played.assists) as assists,
+             sum(played.minutes) as minutes,
+             sum(played.clean_sheets) as clean_sheets,
+             sum(played.ict_index) as ict_index,
+             sum(played.creativity) as creativity,
+             sum(played.threat) as threat,
+             avg(played.value) as avg_value
         WHERE total_points >= $min_points
         RETURN {{
           player_name: node.player_name, 
@@ -144,7 +150,13 @@ class VectorSearch:
           team_name: head([(node)-[:PLAYS_FOR]->(t) | t.name]),
           total_points: total_points,
           goals: goals,
-          assists: assists
+          assists: assists,
+          minutes: minutes,
+          clean_sheets: clean_sheets,
+          ict_index: ict_index,
+          creativity: creativity,
+          threat: threat,
+          cost: toFloat(avg_value) / 10.0
         }} as player_data, score
         ORDER BY score DESC
         LIMIT 5
