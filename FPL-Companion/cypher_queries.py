@@ -187,3 +187,80 @@ class CypherQueryLibrary:
             "team": params.get("team")
         }
 
+    # 12. Player Recent Form (Last 5 Games)
+    def get_player_recent_form(self, params):
+        query = """
+        MATCH (p:Player {player_name: $player_name})-[r:PLAYED_IN]->(f:Fixture {season: $season})
+        MATCH (g:Gameweek)-[:HAS_FIXTURE]->(f)
+        RETURN p.player_name, f.season, g.GW_number, r.total_points, r.goals_scored, r.assists, r.bonus, r.was_home
+        ORDER BY g.GW_number DESC
+        LIMIT 5
+        """
+        return query, {"player_name": params.get("player_name"), "season": params.get("season")}
+
+    # 13. Bonus Point Magnets
+    def get_bonus_point_magnets(self, params):
+        query = """
+        MATCH (p:Player)-[r:PLAYED_IN]->(f:Fixture {season: $season})
+        RETURN p.player_name, sum(r.bonus) as total_bonus, sum(r.total_points) as total_points
+        ORDER BY total_bonus DESC
+        LIMIT 10
+        """
+        return query, {"season": params.get("season")}
+
+    # 12. Player Home vs Away Performance (New)
+    def get_player_home_away_performance(self, params):
+        query = """
+        MATCH (p:Player {player_name: $player_name})-[r:PLAYED_IN]->(f:Fixture {season: $season})
+        RETURN p.player_name, r.was_home as played_at_home, 
+               avg(r.total_points) as avg_points, 
+               sum(r.goals_scored) as total_goals, 
+               sum(r.assists) as total_assists,
+               count(r) as matches_played
+        ORDER BY played_at_home DESC
+        """
+        return query, {"player_name": params.get("player_name"), "season": params.get("season")}
+
+    # 13. Top Scorers by Team (New)
+    def get_team_top_scorers(self, params):
+        query = """
+        MATCH (t:Team {name: $team_name})<-[:PLAYS_FOR]-(p:Player)
+        MATCH (p)-[r:PLAYED_IN]->(f:Fixture {season: $season})
+        WITH p, sum(r.goals_scored) as goals, sum(r.assists) as assists, sum(r.total_points) as points
+        WHERE goals > 0
+        RETURN p.player_name, goals, assists, points
+        ORDER BY goals DESC
+        LIMIT 5
+        """
+        return query, {"team_name": params.get("team_name"), "season": params.get("season")}
+
+    # 14. Value for Money Analysis (New)
+    def get_player_value_analysis(self, params):
+        query = """
+        MATCH (p:Player {player_name: $player_name})-[r:PLAYED_IN]->(f:Fixture {season: $season})
+        RETURN p.player_name, 
+               avg(r.value) / 10.0 as avg_price, 
+               sum(r.total_points) as total_points,
+               (toFloat(sum(r.total_points)) / (avg(r.value) / 10.0)) as points_per_million
+        """
+        return query, {"player_name": params.get("player_name"), "season": params.get("season")}
+
+    # 15. Budget Filter (New)
+    def get_players_by_budget(self, params):
+        # Value in DB is int (e.g. 80 for 8.0)
+        query = """
+        MATCH (p:Player)-[r:PLAYED_IN]->(:Fixture {season: $season})
+        // Filter by Position if provided
+        WHERE ($position IS NULL OR (p)-[:PLAYS_AS]->(:Position {name: $position}))
+        WITH p, avg(r.value) as avg_val, sum(r.total_points) as total_points
+        WHERE avg_val <= ($max_price * 10)
+        RETURN p.player_name, avg_val/10.0 as cost, total_points
+        ORDER BY total_points DESC
+        LIMIT 10
+        """
+        return query, {
+            "season": params.get("season", "2022-23"),
+            "max_price": float(params.get("budget")),
+            "position": params.get("position")
+        }
+

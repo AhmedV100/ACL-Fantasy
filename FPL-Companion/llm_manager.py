@@ -107,9 +107,13 @@ class RAGManager:
                 if entities['teams']: extracted_params['team'] = entities['teams'][0] # Changed key to 'team' to match Cypher param
                 
                 # Check for Specific Stats Keywords
-                if any(x in user_query.lower() for x in ["clean sheet", "cleansheet", "clean sheets", "cleansheets"]) and 'player_name' in extracted_params:
+                if "clean sheet" in user_query.lower() and 'player_name' in extracted_params:
                      extracted_params['season'] = extracted_params.get('season', "2022-23")
                      queries_to_run.append("get_player_cleansheets")
+                
+                if "bonus" in user_query.lower() and 'player_name' not in extracted_params:
+                     extracted_params['season'] = extracted_params.get('season', "2022-23")
+                     queries_to_run.append("get_bonus_point_magnets")
 
                 if any(x in user_query.lower() for x in ["ict", "influence", "creativity", "threat"]) and not 'player_name' in extracted_params:
                      queries_to_run.append("get_highest_ict_player")
@@ -131,18 +135,33 @@ class RAGManager:
                      extracted_params['opponent'] = extracted_params['team']
                      queries_to_run.append("get_player_performance_vs_team")
                 
-                elif 'player_name' in extracted_params:
                      # 2. Player Stats (GW or Season)
                      if entities.get('gameweeks'):
                          extracted_params['gw'] = entities['gameweeks'][0]
                          queries_to_run.append("get_player_gw_stats")
+                     elif "home" in user_query.lower() or "away" in user_query.lower():
+                         queries_to_run.append("get_player_home_away_performance")
+                     elif any(x in user_query.lower() for x in ["form", "recent", "last 5", "trend"]):
+                         queries_to_run.append("get_player_recent_form")
+                     elif any(x in user_query.lower() for x in ["value", "cost", "price", "budget", "worth"]):
+                         # Check if explicit budget number was found (filter) or just general value analysis (player)
+                         if entities.get('budget'):
+                              extracted_params['budget'] = entities['budget']
+                              if entities.get('positions'): extracted_params['position'] = entities['positions'][0]
+                              queries_to_run.append("get_players_by_budget")
+                         else:
+                              queries_to_run.append("get_player_value_analysis")
                      else:
                          queries_to_run.append("get_player_stats")
 
                 elif 'team' in extracted_params:
-                     # 3. Team Fixtures
+                     # 3. Team Fixtures or Top Scorers
                      extracted_params['team_name'] = extracted_params['team']
-                     queries_to_run.append("get_team_fixtures")
+                     
+                     if any(x in user_query.lower() for x in ["top scorer", "most goals", "leading scorer", "lead scorer"]):
+                          queries_to_run.append("get_team_top_scorers")
+                     else:
+                          queries_to_run.append("get_team_fixtures")
                 
                 else: 
                      # 4. Fallback

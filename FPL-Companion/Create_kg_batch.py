@@ -251,6 +251,7 @@ class FPLKnowledgeGraphBatch:
                 'threat': float(row['threat']),
                 'ict_index': float(row['ict_index']),
                 'form': float(row['form']),
+                'value': int(row['value']),
                 'was_home': was_home
             })
             
@@ -278,7 +279,9 @@ class FPLKnowledgeGraphBatch:
                 r.creativity = row.creativity,
                 r.threat = row.threat,
                 r.ict_index = row.ict_index,
+                r.ict_index = row.ict_index,
                 r.form = row.form,
+                r.value = row.value,
                 r.was_home = row.was_home
             """
             tx.run(query, batch=batch)

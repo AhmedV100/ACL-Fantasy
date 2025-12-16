@@ -154,6 +154,17 @@ class EntityExtractor:
         else:
              entities["gameweeks"] = []
 
+        # Budget / Price (e.g. "under 8.0", "6.5m", "budget of 10")
+        # Matches numbers that might follow "under", "less than", "budget"
+        # Or just generally looks for small float-like numbers (4.0 to 15.0) common in FPL
+        price_matches = re.findall(r'(?:under|less than|budget|cost|price)\s*(?:of\s*)?£?(\d+(?:\.\d+)?)', query_lower)
+        if price_matches:
+             entities["budget"] = float(price_matches[0])
+        else:
+             # Fallback: finding standalone floats if keywords missing? 
+             # Maybe risky, stick to explicit context for now.
+             entities["budget"] = None
+
         return entities
 
 if __name__ == "__main__":
