@@ -201,7 +201,7 @@ class CypherQueryLibrary:
         """
         return query, {"season": params.get("season")}
 
-    # 12. Player Home vs Away Performance (New)
+    # 14. Player Home vs Away Performance (New)
     def get_player_home_away_performance(self, params):
         query = """
         MATCH (p:Player {player_name: $player_name})-[r:PLAYED_IN]->(f:Fixture {season: $season})
@@ -214,7 +214,7 @@ class CypherQueryLibrary:
         """
         return query, {"player_name": params.get("player_name"), "season": params.get("season")}
 
-    # 13. Top Scorers by Team (New)
+    # 15. Top Scorers by Team (New)
     def get_team_top_scorers(self, params):
         query = """
         MATCH (t:Team {name: $team_name})<-[:PLAYS_FOR]-(p:Player)
@@ -227,7 +227,7 @@ class CypherQueryLibrary:
         """
         return query, {"team_name": params.get("team_name"), "season": params.get("season")}
 
-    # 14. Value for Money Analysis (New)
+    # 16. Value for Money Analysis (New)
     def get_player_value_analysis(self, params):
         query = """
         MATCH (p:Player {player_name: $player_name})-[r:PLAYED_IN]->(f:Fixture {season: $season})
@@ -238,7 +238,7 @@ class CypherQueryLibrary:
         """
         return query, {"player_name": params.get("player_name"), "season": params.get("season")}
 
-    # 15. Budget Filter (New)
+    # 17. Budget Filter (New)
     def get_players_by_budget(self, params):
         # Value in DB is int (e.g. 80 for 8.0)
         query = """
